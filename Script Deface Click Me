@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<title>Tested by Mr.RequestTimedOut</title>
+<link href="http://3.bp.blogspot.com/-WKbLS7ee_44/VcqX0B3tuLI/AAAAAAAAYnA/96giEU2bJQU/s1600/dp-bbm-bendera-indonesia-animasi-bergerak%2B%25282%2529.gif" rel="SHORTCUT ICON">
+<meta name="Author" content="Mr.RequestTimedOut"/>
+<meta name="description" content="Tested by Mr.RequestTimedOut"/
+<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' background="https://scontent-sit4-1.xx.fbcdn.net/v/t31.0-8/15138439_1605485103087714_2170037124369217518_o.jpg?oh=b76355d71f03e104896deff95e2e23c6&oe=58FA742D">
+<head>
+<style>
+body {
+    font-family: 'Shadows Into Light', cursive;
+    font-size : 30px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+   background: transparent;
+	background-image: url(http://www.walldevil.com/wallpapers/a73/dark-anime-wallpapers-knight-wallpaper-pictures-souls-joker.jpg);
+	background-attachment: fixed;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+    
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;'>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> 
+<style style="text/css">
+body {
+	background: transparent;
+	background-image: url(http://www.walldevil.com/wallpapers/a73/dark-anime-wallpapers-knight-wallpaper-pictures-souls-joker.jpg);
+	background-attachment: fixed;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+.coeg {
+	font-family: 'Shadows Into Light', cursive;
+	color : white;
+	font-size: 30px;
+}	
+#message {
+	font-family: 'Shadows Into Light', cursive;
+	color : white;
+	font-size: 17px;
+}
+
+.vertically {
+ width : 50%;
+ height: 200px;	
+ overflow: hidden;
+ position: relative;
+ font-family: 'Shadows Into Light', cursive;
+ border-radius: 6px;
+box-shadow: 1px 1px 4px 1px black;
+background-color : black;
+opacity : 0.7;
+border : 1px solid red;
+}
+.vertically p {
+ position: absolute;
+ width: 100%;
+ height: 320px;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateY(50%);
+ -webkit-transform:translateY(50%);	
+ transform:translateY(50%);
+ /* Apply animation to this element */	
+ -moz-animation: vertically 5s linear infinite alternate;
+ -webkit-animation: vertically 5s linear infinite alternate;
+ animation: vertically 5s linear infinite alternate;
+}
+/* Move it (define the animation) */
+@-moz-keyframes vertically {
+ 0%   { -moz-transform: translateY(50%); }
+ 100% { -moz-transform: translateY(-50%); }
+}
+@-webkit-keyframes vertically {
+ 0%   { -webkit-transform: translateY(50%); }
+ 100% { -webkit-transform: translateY(-50%); }
+}
+@keyframes vertically {
+ 0%   { 
+ -moz-transform: translateY(50%); /* Browser bug fix */
+ -webkit-transform: translateY(50%); /* Browser bug fix */
+ transform: translateY(50%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(-50%); /* Browser bug fix */
+ -webkit-transform: translateY(-50%); /* Browser bug fix */
+ transform: translateY(-50%); 
+ }
+}
+</style>
+<body><center>
+	<p class="coeg"><font color="red">COEG </font>EVERYWHERE</p>
+
+<div class="vertically">
+<p><font size="10px" color="red">Mr.RequestTimedOut Was here!!!</font> </p>
+</div>
+<script type="text/javascript">
+TypingText = function(element, interval, cursor, finishedCallback) {
+  if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
+    this.running = true;
+    return;
+  }
+  this.element = element;
+  this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+  this.interval = (typeof interval == "undefined" ? 100 : interval);
+  this.origText = this.element.innerHTML;
+  this.unparsedOrigText = this.origText;
+  this.cursor = (cursor ? cursor : "");
+  this.currentText = "";
+  this.currentChar = 0;
+  this.element.typingText = this;
+  if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+  TypingText.all.push(this);
+  this.running = false;
+  this.inTag = false;
+  this.tagBuffer = "";
+  this.inHTMLEntity = false;
+  this.HTMLEntityBuffer = "";
+}
+TypingText.all = new Array();
+TypingText.currentIndex = 0;
+TypingText.runAll = function() {
+  for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+}
+TypingText.prototype.run = function() {
+ if(this.running) return;
+ if(typeof this.origText == "undefined") {
+   setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+   return;
+ }
+ if(this.currentText == "") this.element.innerHTML = "";
+ if(this.currentChar < this.origText.length) {
+   if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+     this.tagBuffer = "<";
+     this.inTag = true;
+     this.currentChar++;
+     this.run();
+     return;
+   } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+     this.tagBuffer += ">";
+      this.inTag = false;
+      this.currentText += this.tagBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inTag) {
+      this.tagBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+     this.HTMLEntityBuffer = "&";
+      this.inHTMLEntity = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+     this.HTMLEntityBuffer += ";";
+      this.inHTMLEntity = false;
+      this.currentText += this.HTMLEntityBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inHTMLEntity) {
+      this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else {
+      this.currentText += this.origText.charAt(this.currentChar);
+    }
+    this.element.innerHTML = this.currentText;
+    this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+   this.currentChar++;
+   setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+ } else {
+        this.currentText = "";
+        this.currentChar = 0;
+       this.running = false;
+       this.finishedCallback();
+ }
+}
+</script>
+<center>
+	<div class="coeg"><h3><font color="red">G</font>a<font color="red"><strong>roo</strong></font>da <font color="red">Sec</font>urity <font color="red">Squad</font></h3></div><p id="message"><font> <strong><br> [_MisterNotFound_] [d4nCogz_010] [aN0n] [PandaKecil] [INS7ING] [Mr.Z_4202] [Mr.404] [./DadangXhamster]
+[Mr.H4llus!N0G3N] [Mr.RequestTimeOut] [Dull_1999] [D!@m@nt3] [Rabbids404] [Mr.PHP404ERROR] [OTnayTrue] [MKNotfound477] [GunshootCbr] [Panda DOT ID] [AFK404] [./Mr.404Forbidden]
+</strong>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=384191914936497";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <script type="text/javascript">
+new TypingText(document.getElementById("message"), 50, function(i){ var ar = new Array("\\", "|", "/", "-"); return " " + ar[i.length % ar.length]; });
+//Type out examples:
+TypingText.runAll();
+  </script>
+<p class="coeg"><font color="red">"We Are Penetration Tester"</p></font>
+</center>
+
+</div>
+<center><span><font color="white" size="110px">&#9760;</span></font>
+<h2><center><font color="white">Hello Admin :)</h2>
+<p><center><span class="blink"><font color="white" size="40px">Patch Your Sec :)</p></span>
+<style>
+@keyframes bg-blink {  
+    0% { background-color:#ff0000; }
+    100% { background-color:#ffffff; }
+}
+@-webkit-keyframes bg-blink {
+    0% { background-color:#ff0000; }
+    100% { background-color:#ffffff; }
+}
+.bg-blink {
+    -webkit-animation: bg-blink 1s linear infinite;
+    -moz-animation: bg-blink 1s linear infinite;
+    animation: bg-blink 1s linear infinite;
+} 
+.blink {
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+  color:#ffffff;
+}
+@keyframes blink {
+  to { visibility: hidden; }
+}
+@-webkit-keyframes blink {
+  to { visibility: hidden; }
+}
+</style>
+<center><span class="blink"><font color="red">&#9760;</font> </span>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">Klik ME</span>
+<span class="blink"><font color="red">&#9760;</font> </span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs2.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582H6x5iDAuv2B4mUmi6oHtxY6l7tAaYIKRz1FItQbFz9IZi3frVRXPc9djty80T3wEsYeyBSaXlhTL3lwj1pOXMOzMrOY8oKuGHfBaU2PuAZpRhA2hz%2f9EU3CCjF3lR2STEeKMuQgTNwmWGsZuK2CcbGKkKFjnlWHM5jWkiRIw%2b3XsVmvoUozG8udLuVT3ZyxOkwrIvifL78fIShE5N8MwaHcZ28f8sUoDOrfDRyPiV1x4f7oQk6Tmm1hv841%2bEfABCorc7eaxiuPEoQzy4WhObEEBjp9xWhwZZ4CdQbmgzL2hclJyI6zjlmrWtuvgz5eYNUo2dVOodxb2uno2azmH0JGhO55Dhxbqxo2K4aRZoSeLwXFyr74Ppn%2biCNU2tOcYePCcopFj9cDVo4NyuxBV%2fAVmgt3iVkY3yw7eYu9alM0LrzntT%2fXeppetYHZaw4kZw%2bAlW%2byAva7bodp%2fmqyWjg6nvtNnQYAXhw33oIOizFmIyce1DOEej%2f8szMLPjJ5iHgMKIUR6cSK%2f%2f31h9gKMBzzblyDntlnwjYKySOOyvom" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+</body>
+<embed src="http://www.youtube.com/v/cK3NMZAUKGw&autoplay=1" type="application/x-shockwave-flash" wmode="transparent" width="1" height="1"></embed>
+</html>
